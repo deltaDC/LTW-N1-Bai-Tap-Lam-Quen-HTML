@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 50px
+}
+
+p {
+    font-size: 20px;
+}
